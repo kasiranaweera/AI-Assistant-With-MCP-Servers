@@ -126,13 +126,19 @@ uv run app.py
 
 This version demonstrates connecting multiple custom MCP servers to a client.
 
-**Step 1: Start the Weather Server** (HTTP transport)
+**Step 1: Start the Math Server** (stdio transport)
+```bash
+cd v2.0.0
+python mathserver.py
+```
+
+**Step 2: Start the Weather Server** (HTTP transport, in a new terminal)
 ```bash
 cd v2.0.0
 python weather.py
 ```
 
-**Step 2: Run the Client** (in a new terminal)
+**Step 3: Run the Client** (in a new terminal)
 ```bash
 cd v2.0.0
 python client.py
