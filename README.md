@@ -1,6 +1,6 @@
 # AI-Assistant-With-MCP-Servers
 
-Build an interactive AI Assistant with Model Context Protocol (MCP) Servers and tools using LangChain and Groq API.
+Build an AI Assistant with Model Context Protocol (MCP) Servers and tools using LangChain and Groq API.
 
 ## Overview
 
